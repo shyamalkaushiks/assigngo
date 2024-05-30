@@ -25,5 +25,5 @@ go mod tidy
 3 run the code 
 go run main.go
 
-
-all test cases passing
+run go test
+4 all test cases passing
