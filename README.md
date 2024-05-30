@@ -14,7 +14,7 @@ This is a simple gRPC service for managing users.
 
 1. Clone the repository:
 
-   ```sh
+ 
    git clone https://github.com/shyamalkaushiks/assigngo
    cd assigngo
 
@@ -27,3 +27,10 @@ go run main.go
 
 run go test
 4 all test cases passing
+
+Accessing the gRPC Service Endpoints
+grpcurl -plaintext -d '{"id": 1}' localhost:50051 UserService/GetUserByID
+grpcurl -plaintext -d '{"ids": [1, 2]}' localhost:50051 UserService/GetUsersByIDs
+grpcurl -plaintext -d '{"city": "LA"}' localhost:50051 UserService/SearchUsers
+
+
