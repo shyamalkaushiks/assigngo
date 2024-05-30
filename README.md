@@ -15,7 +15,7 @@ This is a simple gRPC service for managing users.
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/USERNAME/grpc2.git](https://github.com/shyamalkaushiks/assigngo
+   git clone https://github.com/shyamalkaushiks/assigngo
    cd assigngo
 
 2   Install the necessary dependencies:
